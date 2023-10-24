@@ -1,0 +1,57 @@
+.carousel-item img {
+    width: 512px;
+    height: 512px;
+    margin: 0 auto; /* Center the image */
+    border-radius: 10px;
+}
+
+.carousel-item{
+    border-radius: 10px;
+
+}
+
+.carousel-item h5, p{
+    color: black;
+    text-shadow: white 0px 0px 5px;
+    font-size: 40px;
+}
+
+body{
+    background-color: #191c1f;
+}
+
+.carousel-item-custom-1{
+    background: linear-gradient(to bottom right, #575c9e, #ffffff);
+}
+
+.carousel-item-custom-2{
+    background: linear-gradient(to bottom right, #b32c46, #1b1223);
+}
+.carousel-item-custom-3{
+    background: linear-gradient(to bottom right, #575c9e, #ffffff);
+}
+.carousel-item-custom-4{
+    background: linear-gradient(to bottom right, black, navy);
+}
+
+.carousel-item-custom-5{
+    background: linear-gradient(to bottom right, #d0a85d, #be6029);
+}
+.carousel-caption{
+    float: right;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    border-radius: 50%; /* Make the buttons circular */
+    margin-top: 17%;
+    width: 50px;
+    height: 50px;
+    background-color: #191c1f; /* Button background color */
+    color: #fff; /* Button text color */
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #010406; /* Button background color on hover */
+}
