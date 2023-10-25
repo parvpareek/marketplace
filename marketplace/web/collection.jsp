@@ -9,6 +9,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="java.sql.*" %>
 <%@ page import="com.NFT" %>
+
 <%@ page import="com.NFTDao" %>
 <%@ page contentType="text/html;charset=UTF-8"%>
 <%
@@ -81,7 +82,7 @@
                           <h5 class="card-title"><%= shortName%> #<%= nft.id%></h5>
                           <h6>Price</h6>
                           <p class="card-text"><%= nft.price%> ETH</p>
-                          <a href="collection.jsp?id=<%= nft.id %>&collection=<%= nft.collection%>" class="btn btn-primary">Buy Now</a>
+                          <a href="nft.jsp?id=<%= nft.id %>&collection=<%= nft.collection%>" class="btn btn-primary">Buy Now</a>
                         </div>
                       </div>
                 </div>
