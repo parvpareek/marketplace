@@ -55,6 +55,13 @@ body{
 .carousel-control-prev:hover, .carousel-control-next:hover {
     background-color: #010406; /* Button background color on hover */
 }
+a{
+    text-decoration: none;
+}
+
+.table{
+    font-size: 1.5rem;
+}
 
 
 @font-face {
@@ -63,26 +70,22 @@ body{
     font-weight: normal;
 }
 /* Gotham Bold */
-  @font-face {
-    font-family: 'Gotham Bold';
-    src: url('Gotham/Gotham-Bold.otf') format('opentype');
-    font-weight: normal;
-  }
-  
-  /* Gotham Medium */
-  @font-face {
-    font-family: 'Gotham Medium';
-    src: url('Gotham/GothamMedium.ttf') format('truetype');
-    font-weight: normal;
-  }
-  
-  /* Gotham Thin */
-  @font-face {
-    font-family: 'Gotham Thin';
-    src: url('Gotham/Gotham-Thin.otf') format('opentype');
-    font-weight: normal;
-  }
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('Gotham/Gotham-Bold.otf') format('opentype');
+  font-weight: normal;
+}
 
-.table{
-    font-family: 'Gotham';
+/* Gotham Medium */
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('Gotham/GothamMedium.ttf') format('truetype');
+  font-weight: normal;
+}
+
+/* Gotham Thin */
+@font-face {
+  font-family: 'Gotham Thin';
+  src: url('Gotham/Gotham-Thin.otf') format('opentype');
+  font-weight: normal;
 }

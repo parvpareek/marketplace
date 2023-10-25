@@ -153,7 +153,7 @@
                   <tr>
 
                     <th scope="row"><%= collection.getSr() %></th>
-                    <td><a href="collection.jsp?collectionId=<%= collection.getSr() %>"><%= collection.getName() %></a></td>
+                    <td><a href="collection.jsp?collectionName=<%= collection.getShortName() %>"><%= collection.getName() %></a></td>
                     <td><%= collection.getFloorPrice() %></td>
                     <td><%= collection.getFloorChange() %></td>
                     <td><%= collection.getVolume() %></td>

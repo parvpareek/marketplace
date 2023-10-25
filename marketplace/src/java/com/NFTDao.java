@@ -21,18 +21,18 @@ public class NFTDao {
         // connection = YourDatabaseConnection.getConnection();
     }
 
-    public List<NFT> getNFTsByCollectionId(int collectionId) {
+    public List<NFT> getNFTsByCollectionName(String shortName) {
         List<NFT> nfts = new ArrayList<>();
         try {
-            PreparedStatement statement = connection.prepareStatement("SELECT * FROM nfts WHERE collection_id = ?");
-            statement.setInt(1, collectionId);
+            String sql = "SELECT * FROM " + shortName;
+            PreparedStatement statement = connection.prepareStatement(sql);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 NFT nft = new NFT(resultSet.getInt("id"),
-                        resultSet.getString("name"),
-                        resultSet.getFloat("description"),
-                        resultSet.getString("image_url"),
-                        resultSet.getString("price"));
+                        shortName,
+                        resultSet.getFloat("price"),
+                        resultSet.getString("creator"),
+                        resultSet.getString("owner"));
                 nfts.add(nft);
             }
         } catch (SQLException e) {
