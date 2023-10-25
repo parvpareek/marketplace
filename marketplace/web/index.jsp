@@ -30,7 +30,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <!-- Logo -->
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="#">NFT MARKETPLACE</a>
     
                 <!-- Search Bar -->
                 <form class="d-flex mx-auto">
@@ -49,7 +49,6 @@
                         </li>
                         
                         <li class="nav-item">
-                            <svg viewBox="0 0 16 16" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="sc-gueYoa kdochj"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 8C14 11.2875 11.2817 14 8 14C4.7183 14 2 11.2875 2 8C2 4.7183 4.71249 2 7.99419 2C11.2817 2 14 4.7183 14 8ZM8 4.5C8.27614 4.5 8.5 4.72386 8.5 5V7.5H11C11.2761 7.5 11.5 7.72386 11.5 8C11.5 8.27614 11.2761 8.5 11 8.5H8.5V11C8.5 11.2761 8.27614 11.5 8 11.5C7.72386 11.5 7.5 11.2761 7.5 11V8.5H5C4.72386 8.5 4.5 8.27614 4.5 8C4.5 7.72386 4.72386 7.5 5 7.5H7.5V5C7.5 4.72386 7.72386 4.5 8 4.5Z" fill="currentColor"></path></svg>
                             <a class="nav-link" href="#">Create</a>
                         </li>
                         <li class="nav-item">
@@ -73,39 +72,36 @@
                     <div class="carousel-item active carousel-item-custom-1">
                         <div class="collection container-lg bg-black">
                             <img src="carousel/5.gif" class="d-block w-30" alt="Slide 1">
-                            <div class="carousel-caption">
-                            <h5>Heading 1</h5>
-                            <p>Description for slide 1.</p>
+                            <div class="carousel-caption ml-5">
+                            <h5>Winds of Yawanawa by Yawanawa and Refik</h5>
+                            
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item carousel-item-custom-2">
                         <img src="carousel/1.png" class="d-block w-30" alt="Slide 2">
                         <div class="carousel-caption">
-                            <h5>Heading 2</h5>
-                            <p>Description for slide 1.</p>
-                        </div>
+                            <h5>Citizens of Mantle</h5>
+                             </div>
                     </div>
                     <div class="carousel-item carousel-item-custom-3">
                         <img src="carousel/2.jfif" class="d-block w-30" alt="Slide 3">
                         <div class="carousel-caption">
-                            <h5>Heading 3</h5>
-                            <p>Description for slide 1.</p>
-                        </div>
+                            <h5>Legends Of Maria</h5>
+                            </div>
                     </div>
                     <div class="carousel-item carousel-item-custom-4">
                         <img src="carousel/3.png" class="d-block w-30" alt="Slide 3">
                         <div class="carousel-caption">
-                            <h5>Heading 4</h5>
-                            <p>Description for slide 1.</p>
+                            <h5>Mocaverse Marketplace</h5>
+                            <p></p>
                         </div>
                     </div>
                     <div class="carousel-item carousel-item-custom-5">
                         <img src="carousel/4.png" class="d-block w-30" alt="Slide 3">
                         <div class="carousel-caption">
                             <h5>Heading 5</h5>
-                            <p>Description for slide 1.</p>
-                        </div>
+                            </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"

@@ -70,6 +70,44 @@
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.jsp">NFT MARKETPLACE</a>
+    
+                <!-- Search Bar -->
+                <form class="d-flex mx-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+    
+                <!-- Tabs -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sell</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Create</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Connect Wallet</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Cart Icon -->
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">
+                        <i class="bi bi-cart"></i> <!-- Assuming you're using Bootstrap Icons -->
+                    </a>
+                </div>
+            </div>
+        </nav>
         
 
         <div class="container d-flex">

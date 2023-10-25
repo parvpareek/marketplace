@@ -13,7 +13,7 @@
 .carousel-item h5, p{
     color: black;
     text-shadow: white 0px 0px 5px;
-    font-size: 40px;
+    font-size: 0.5rem;
 }
 
 body{
@@ -50,7 +50,7 @@ body{
     color: #fff; /* Button text color */
     line-height: 50px;
     text-align: center;
-    font-size: 24px;
+    font-size: 1rem;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
     background-color: #010406; /* Button background color on hover */
