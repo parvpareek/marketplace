@@ -111,7 +111,7 @@
         
 
         <div class="container d-flex">
-            <img src="nfts/bayc/2129.jpg" class="rounded mx-auto mt-5" style="max-height: 100%; max-width: 50%; ">
+            <img src="nfts/<%= collection %>/<%= id %>.jpg" class="rounded mx-auto mt-5" style="max-height: 100%; max-width: 50%; ">
             <div class="container mt-5 mx-5 bg-black rounded" style="color: aliceblue;">
                 <br>
                 <br>
