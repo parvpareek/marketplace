@@ -22,8 +22,12 @@ public class NFTDao {
     }
 
     public List<NFT> getNFTsByCollectionName(String shortName) {
-        List<NFT> nfts = new ArrayList<>();
+                List<NFT> nfts = new ArrayList<>();
         try {
+            
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/nfts", "root", "");
+
             String sql = "SELECT * FROM " + shortName;
             PreparedStatement statement = connection.prepareStatement(sql);
             ResultSet resultSet = statement.executeQuery();
@@ -35,7 +39,7 @@ public class NFTDao {
                         resultSet.getString("owner"));
                 nfts.add(nft);
             }
-        } catch (SQLException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return nfts;
